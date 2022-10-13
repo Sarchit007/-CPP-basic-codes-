@@ -1,0 +1,41 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+ char opr;
+ cout<<" enter the operator = ";
+ cin>>opr;
+ 
+ int num1,num2;
+ cout<<" enter the value of num1 = ";
+ cin>>num1;
+ cout<<" enter the value of num2 = ";
+ cin>>num2;
+
+ switch (opr)
+ {
+ case '+':
+  cout<<num1<<'+'<<num2<<'='<<num1+num2;
+    break;
+ 
+ case '-':
+  cout<<num1<<'-'<<num2<<'='<<num1-num2;
+    break;
+
+ case '*':
+ cout<<num1<<'*'<<num2<<'='<<num1*num2;
+    break;
+
+ case '/':
+ cout<<num1<<'/'<<num2<<'='<<num1/num2;
+    break;
+
+
+ default:
+ cout<<"error!";
+    break;
+ }
+
+return 0;
+}
