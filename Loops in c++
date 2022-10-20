@@ -1,0 +1,59 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+  /* LOOPS  IN  c++
+     
+      There are three types of loops in c++
+      1.>For loop
+      2.>while loop
+      3.>Do while loop
+  
+  */
+
+//FOR LOOP IN C++
+
+//  int n;
+
+//  cout<<"Enter the number n = ";
+//  cin>>n;
+
+
+//  for (int i = 0; i <=10 ; i++)
+//  {
+//     /* code */
+//     cout<<i*n<<endl;
+//  }
+ 
+//     return 0; 
+// }
+
+//WHILE LOOP IN C++
+//  int i;
+
+ 
+//  while (i<=10)
+//  {
+//   /* code */
+//   cout<<i<<endl;
+//   i++;
+//  }
+ 
+
+
+
+// DO-WHILE LOOP IN C++
+
+// int i = 1 ;
+
+// do
+// {
+//   /* code */
+//   cout<<i<<endl;
+//    i++;
+// } while (i<=10);
+
+return 0;
+}
