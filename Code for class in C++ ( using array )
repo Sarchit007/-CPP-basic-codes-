@@ -1,0 +1,53 @@
+#include<iostream>
+using namespace std;
+ 
+ class student{
+ char Name[10];
+ int Rollno;
+ char section;
+
+public:
+  void getdata();
+  void putdata();
+
+ };
+
+
+ void student::getdata(void){
+  cout<<"Name of the student : ";
+  cin>>Name;
+  cout<<"Enter the Rollno. of the student :  ";
+  cin>>Rollno;
+  cout<<"enter the section of the student :   ";
+  cin>>section;
+ }
+
+ void student::putdata(void){
+   cout<<"Name = "<<Name<<" Rollno. = "<<Rollno<<" section = "<<section<<endl;
+ }
+   
+ 
+
+int main(){ 
+
+ student st[10];
+      int n, i ;
+
+  cout<<" enter the total no. of student  = ";
+  cin>>n;
+
+  for ( i = 0; i < n; i++)
+  {
+   cout<<" enter the details of the student "<<i+1<<endl;
+   st[i].getdata();
+  }
+
+ for ( i = 0; i < n; i++)
+ {
+   cout<<"details of students "<<(i+1)<<endl;
+   st[i].putdata();
+ }
+ 
+
+return 0;
+}
