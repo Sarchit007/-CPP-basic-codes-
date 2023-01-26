@@ -1,0 +1,30 @@
+#include<iostream>
+
+using namespace std;
+
+ int main(){
+   // lets make a program for detection of kids and adults  
+    
+   int age ;
+  cout<<"enter your age = ";
+  cin>>age;
+ 
+    switch (age){
+    case  18:
+    cout<<"you are 18";
+    break;
+
+    case  22:
+    cout<<"you are 22";
+    break;
+
+    case  1:
+    cout<<"you are 1";
+    break;
+
+    default:
+    cout<<"no such cases ";
+    break;
+   }
+    return 0;
+ }
