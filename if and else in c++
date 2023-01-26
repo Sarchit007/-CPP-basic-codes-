@@ -1,0 +1,25 @@
+#include<iostream>
+
+using namespace std;
+
+ int main(){
+   // lets make a program for detection of kids and adults  
+    
+   int age ;
+  cout<<"enter your age = ";
+  cin>>age;
+
+ if (age<18)
+ {
+     cout<<" you can not come to the party ";
+ }
+  else if ( age=18 )
+ {
+    cout<<" you can come with a kids card  ";   //kid card is particularly for the age of people less then 18
+ }
+ 
+ else{
+     cout<<" you can come to the  party ";
+   }
+   return 0;
+  }
